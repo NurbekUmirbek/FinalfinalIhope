@@ -1,0 +1,22 @@
+body {
+	background-image: url(image11.jpg);
+	position: absolute;
+	left: 30%;
+}
+button {
+	background: #FFFFFF;
+	color: #000000;
+	font-family: BentonSans Black;
+font-style: normal;
+font-weight: 100;
+font-size: 20px;
+border-radius: 150px;
+}
+table {
+	background: #2597D7;
+	width: 50%;
+	height: 50%;
+}
+td,th{
+	border: 1px black solid;
+}

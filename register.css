@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@300&family=Bellefair&family=Inter:wght@300&family=Poppins:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@300&family=Bellefair&family=Inter:wght@300&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Barlow&family=Barlow+Condensed:wght@300&family=Bellefair&family=Inter:wght@300&family=Poppins:wght@300&display=swap');
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+}
+body{
+    background-image: url("back.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+.header{
+    margin-top: 32px;
+    width: 100vw;
+    height: 150px;
+    background-color: #2597D7;
+}
+.header__logo{
+    position: relative;
+    left: 42%;
+    width: 100px;
+    color: #ffffff;
+    font-size: 62px;
+    font-weight: 400;
+    font-family: BentonSans ;
+    text-align: center;
+}
+.form-login{
+    width: 500px;
+    height: 650px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    position: absolute;
+    top: 60%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+
+}
+.form-login__username{
+    width: 250px;
+    font-weight:400;
+
+    height: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+
+.form-login__phone{
+    position: relative;
+    font-weight:400;
+    top: 18px;
+    width: 250px;
+    height: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.form-login__Email{
+    position: relative;
+    font-weight:400;
+    top: 36px;
+    width: 250px;
+    height: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.form-login__password{
+    position: relative;
+    font-weight:400;
+    top: 54px;
+    width: 250px;
+    height: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+.form-login__password_again{
+    position: relative;
+    font-weight:400;
+
+    top: 72px;
+    width: 250px;
+    height: 25px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.form-login__btn{
+    position: relative;
+    top: 90px;
+    width: 260px;
+    height: 35px;
+    background-color: #0f6cbf;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+
+}
+#username_message{
+    position: relative;
+    left: 9%;
+    top: 5%;
+    font-family: Autour One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    
+    color: #FFFFFF;
+}
+#username{
+    position: relative;
+    top: 5%;
+    left:8%;
+    width: 417px;
+    height: 42.99px;
+    font-size: 30px;
+    background: rgba(196, 196, 196, 0.5);
+    border: 1px black solid;
+    border-radius: 20px;
+}
+#phone_number{
+  
+    position: relative;
+    left: 9%;
+    top: 8%;
+    font-family: Autour One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+#phone{
+    position: relative;
+    top: 8%;
+    left:8%;
+    border: 1px black solid;
+    font-size: 35px;
+    width: 417px;
+    height: 42.99px;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 20px;
+}
+#email_message{
+    position: relative;
+    left: 9%;
+    top: 10%;
+    font-family: Autour One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+#Email{
+    position: relative;
+    top: 10%;
+    left:8%;
+    width: 417px;
+    height: 42.99px;
+    border: 1px black solid;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 20px;
+    font-size: 30px;
+}
+#password_message{
+    position: relative;
+    left: 9%;
+    top: 12%;
+    font-family: Autour One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+#password{
+    position: relative;
+    top: 12%;
+    left:8%;
+    width: 417px;
+    height: 42.99px;
+    border: 1px black solid;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 20px;
+    font-size: 30px;
+
+}
+#repassword_message{
+    position: relative;
+    left: 9%;
+    top: 13%;
+    font-family: Autour One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+#rePassword{
+    position: relative;
+    top: 14%;
+    left:8%;
+    width: 417px;
+    height: 42.99px;
+    border: 1px black solid;
+    background: rgba(196, 196, 196, 0.5);
+    border-radius: 20px;
+    font-size: 30px;
+}
+#result{
+    position: relative;
+    top: 120px;
+}
+.form-login__btn{
+    position: relative;
+    top: 15%;
+    left: 20%;
+    width: 297px;
+    height: 68px;
+    border: 1px black solid;
+    background: #2597D7;
+    border-radius: 50px;
+    font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+}
+.form_log{
+    text-decoration: none;
+    position: relative;
+    top: 20%;
+    left: 35%;
+    width: 100px;
+    height: 40px;
+
+    color: #ffffff;
+    
+    font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+}
+
+.flip{
+    position: relative;
+    left: 25%;
+    width: 750px;
+    -moz-transition: transform 1.5s;
+  -webkit-transition: transform 1.5s;
+  transition: transform 1.5s;
+  transform: rotate(360deg);
+}
+.main{
+    background: url(fon.jpg) no-repeat #0182c6;
+    position: relative;
+    height: 850px;
+    width: 100%;
+    overflow: hidden;
+    background-size:cover;
+}
+.snow1{
+   background-image: url(snow1.png);
+   position:absolute;
+   width: 100%;
+    height:850px;
+    animation: snow1 18s linear infinite;    
+}
+.snow2{
+    background-image: url(snow2.png),url(snow3.png);
+    animation: snow2 10s linear infinite;
+    width: 100%;
+    height:850px;
+    position:absolute;
+}
+@keyframes snow2{
+    0%{background-position: 0 0, 0 0;}
+    100%{background-position: 10% 600px, 10% 600px;}
+}
+@keyframes snow1{
+    from{background-position: 0 -300px;}
+    20% {background-position: 20% -100px;}
+    40% {background-position: 30% 100px;}
+    to{background-position: 20% 700px;}
+}   
+ 

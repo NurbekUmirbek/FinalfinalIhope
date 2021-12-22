@@ -1,0 +1,373 @@
+body {
+	width: 100%;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.header {
+	position: absolute;
+width: 100%;
+height: 806px;
+left: 0px;
+top: 0px;
+background-image: url(image11.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}	
+.header_rectangle{
+	position: absolute;
+width: 100%;
+height: 121px;
+left: 1px;
+top: 32.5px;
+background: #2597D7;
+}
+.header_p1{
+position: relative;
+width: 198px;
+height: 117.42px;
+margin-left: 18%;
+top: -50px;
+font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 61.5146px;
+line-height: 45px;
+color: #FFFFFF;
+}
+.header_a1{
+color: #000000;	
+}
+.header_p2{
+position: relative;
+height: 39.66px;
+margin-left: 33%;
+top: -205px;
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 30.9495px;
+line-height: 42px;
+color: #000000;
+}
+.header_right{
+	float: right;
+	margin-right: 10%;
+	margin-top: 0;
+}
+.header_p3{
+	position: relative;
+margin-left: 1206px;
+top: -310px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 21px;
+color: #000000;
+}
+.header_p4{
+position: relative;
+margin-left: 1206px;
+top: -325px;
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 21px;
+color: #000000;
+}
+.header_h1{
+	position: absolute;
+width: 480.56px;
+height: 92px;
+margin-left: 20%;
+top: 217px;
+font-family: Noto Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 39.6315px;
+line-height: 45px;
+color: #FFFFFF;
+}
+.header_p6{
+	position: absolute;
+width: 385px;
+height: 73.7px;
+margin-left: 25%;
+top: 350px;
+font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 31.7504px;
+line-height: 32px;
+color: #0A141F;
+}
+.header_p7{
+	position: absolute;
+width: 385px;
+height: 73.7px;
+margin-left: 25%;
+top: 460px;
+font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 31.7504px;
+line-height: 32px;
+color: #0A141F;
+}
+.header_p8{
+	position: absolute;
+width: 385px;
+height: 73.7px;
+margin-left: 25%;
+top: 558px;
+font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 31.7504px;
+line-height: 32px;
+color: #0A141F;
+}
+.header_p9{
+	position: absolute;
+width: 385px;
+height: 73.7px;
+margin-left: 25%;
+top: 656px;
+font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 31.7504px;
+line-height: 32px;
+color: #0A141F;
+}
+.header_rectangle2{
+	position: absolute;
+width: 439px;
+height: 146px;
+margin-left: 65%;
+top: 583px;
+background: #2597D7;
+border-radius: 150px;
+}
+.header_rectangle2_p1{
+	position: absolute;
+width: 345px;
+height: 66.05px;
+left: 70px;
+top: 0px;
+font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 28.4517px;
+line-height: 29px;
+color: #FFFFFF;
+}
+.header_rectangle2_p2{
+	position: absolute;
+width: 323px;
+height: 48.31px;
+left: 70px;
+top: 55px;
+font-family: BentonSans Medium;
+font-style: normal;
+font-weight: normal;
+font-size: 36.2202px;
+line-height: 37px;
+}
+.footer_h2{
+	position: absolute;
+width: 536px;
+height: 73px;
+margin-left: 37%;
+top: 801px;
+font-family: Bell MT;
+font-style: normal;
+font-weight: normal;
+font-size: 48.1199px;
+line-height: 72px;
+color: #2597D7;
+}
+.footer_line1{
+	position: absolute;
+width: 150px;
+height: 14px;
+margin-left: 45%;
+top: 924px;
+background: #209BB6;
+}
+.footer_div1{
+width: 100%;
+margin-top: 1000px;
+}
+.footer_div_h1{
+	position: relative;
+bottom: 315px;
+margin-left: 20%;
+font-family: Arkhip;
+font-style: normal;
+font-weight: normal;
+font-size: 64.3784px;
+color: white;
+z-index: 2;
+}
+.footer_div_h2{
+	position: relative;
+bottom: 510px;
+margin-left: 40%;
+font-family: Arkhip;
+font-style: normal;
+font-weight: normal;
+font-size: 64.3784px;
+color: white;
+z-index: 2;
+}
+.footer_div_h3{
+	position: relative;
+bottom: 727px;
+margin-left: 55%;
+font-family: Arkhip;
+font-style: normal;
+font-weight: normal;
+font-size: 64.3784px;
+color: white;
+z-index: 2;
+}
+.footer_div_h4{
+	position: relative;
+bottom: 947px;
+margin-left: 70%;
+font-family: Arkhip;
+font-style: normal;
+font-weight: normal;
+font-size: 64.3784px;
+color: white;
+z-index: 2;
+}
+.footer_div_p1{
+	position: relative;
+bottom: 365px;
+margin-left: 18%;
+font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 13.4304px;
+color: #FFFFFF;
+z-index: 2;
+}
+.footer_div_p2{
+	position: relative;
+bottom: 560px;
+width: 	150px;
+margin-left: 38%;
+font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 13.4304px;
+color: #FFFFFF;
+z-index: 2;
+}
+.footer_div_p3{
+	position: relative;
+bottom: 774px;
+width: 	210px;
+margin-left: 53%;
+font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 13.4304px;
+color: #FFFFFF;
+z-index: 2;
+}
+.footer_div_p4{
+	position: relative;
+bottom: 990px;
+width: 	220px;
+margin-left: 68%;
+font-family: BentonSans Black;
+font-style: normal;
+font-weight: 900;
+font-size: 13.4304px;
+color: #FFFFFF;
+z-index: 2;
+}
+.footer_map{
+	position: absolute;
+left: 23%;
+top: 200%;
+background: #C4C4C4;
+}
+.footer_img{
+	width: 100%;
+}
+.footer_botton {
+	width: 100%;
+	background-color: #2597D7;
+	padding-bottom: 180px;
+}
+.footer_botton_p3 {
+	color: white;
+	font-size: 65px;
+	font-weight: bold;
+	float: right;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+.footer_bottom_p2 {
+	font-weight: bold;
+	font-size: 25px;
+	color: white;
+	position: absolute;
+	margin-left: 12%;
+	margin-top: 5%;
+}
+.footer_bottom_p1 {
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	margin-left: 12%;
+	margin-top: 8%;
+}
+.footer_bottom_img1 {
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	margin-left: 8%;
+	margin-top: 8%;
+}
+.footer_bottom_img2 {
+	position: absolute;
+	margin-left: 7%;
+	margin-top: 4%;
+}
+.header_right_img1{
+	position: absolute;
+	bottom: 40%;
+	left: 90%;
+}
+.header_right_p1{
+	position: absolute;
+	bottom: 35%;
+    left: 75%;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	margin-left: 11%;
+	margin-top: 8%;
+}
+.header__logout{
+	position: absolute;
+	top: 50px;
+	font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 28px;
+line-height: 21px;
+color: #000000;
+}
